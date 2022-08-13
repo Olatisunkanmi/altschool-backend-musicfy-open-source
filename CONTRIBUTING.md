@@ -31,8 +31,7 @@ git rebase upstream/<branch-name
  - Create a new branch. Use its name to identify the issue your addressing.
  - REMEMBER TO USE A DETAILED BRANCH NAME.
 
- // It will create a new branch with name Branch_Name and switch to that branch 
-git checkout -b branch_name
-                                 
+ # It will create a new branch with name Branch_Name and switch to that branch 
+git checkout -b branch_name    
                                  
                                  
