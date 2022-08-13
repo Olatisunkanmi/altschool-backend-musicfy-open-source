@@ -51,8 +51,18 @@ Below you will find all the necessary guides, workflow and process need to revie
 - Go to your repository in browser and click on compare and pull requests. 
 Then add a title and description to your pull request that explains your contribution.
    
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
                                  
 NOTE: 
 😇Learning can be exhaustive, but you can do this. 
-We are in this together.
+We are in this together. 
                               
