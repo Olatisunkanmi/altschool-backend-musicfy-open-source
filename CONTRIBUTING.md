@@ -46,11 +46,10 @@ git checkout -b branch_name
       git push -u origin Branch_Name
                                 
    #  Step 6 : Pull Request 
-     - Go to your repository in browser and click on compare and pull requests. Then add a title and description to your pull request that explains your contribution.
+   - Go to your repository in browser and click on compare and pull requests. Then add a title and description to your pull request that explains your contribution.
    
                                  
-                                 
-                                 
-    😇Learning can be exhaustive, but you can do this. 
-                           We are in this together 
+NOTE: 
+😇Learning can be exhaustive, but you can do this. 
+We are in this together.
                               
