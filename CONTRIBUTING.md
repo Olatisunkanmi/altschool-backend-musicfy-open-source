@@ -17,26 +17,27 @@ Below you will find all the necessary guides, workflow and process need to revie
 # Step 2 : Fork the Repo.
   - Fork this Repository. This will create a Local Copy of this Repository on your Github Profile. Keep a reference to the original project in upstream remote.
 
-git clone https://github.com/<your-username>/<repo-name>  
-cd <repo-name>  
-git remote add upstream https://github.com/<upstream-owner>/<repo-name>  
+
+               git clone https://github.com/<your-username>/<repo-name>  
+               cd <repo-name>  
+               git remote add upstream https://github.com/<upstream-owner>/<repo-name>  
   
   - If you already have the repo forked, update your repo before working!!
   
- git remote update
-git checkout <branch-name>
-git rebase upstream/<branch-name
+                   git remote update
+                  git checkout <branch-name>
+                  git rebase upstream/<branch-name
                                  
 # Step 3 : Branch 
  - Create a new branch. Use its name to identify the issue your addressing.
  - REMEMBER TO USE A DETAILED BRANCH NAME.
 
-git checkout -b branch_name
+                  git checkout -b branch_name
  
 # Step 4 : Commit your Changes
    - To commit give a descriptive message for the convenience of reviewer by:
   
-   git commit -m "your commit message" 
+                   git commit -m "your commit message" 
 
  # Step 5 : Work Remotely
  - Now you are ready to your work to the remote repository.
