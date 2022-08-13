@@ -37,7 +37,9 @@ Below you will find all the necessary guides, workflow and process need to revie
 # Step 4 : Commit your Changes
    - To commit give a descriptive message for the convenience of reviewer by:
   
-                   git commit -m "your commit message" 
+                      git status
+                      git add .
+                      git commit -m "your commit message" 
 
  # Step 5 : Work Remotely
  - Now you are ready to your work to the remote repository.
