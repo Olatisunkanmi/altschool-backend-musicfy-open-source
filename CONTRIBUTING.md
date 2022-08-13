@@ -39,11 +39,10 @@ git checkout -b branch_name
    git commit -m "your commit message" 
 
  # Step 5 : Work Remotely
-     -   Now you are ready to your work to the remote repository.
-     -   When your work is ready and complies with the project conventions, upload your changes to your fork:
-   
-   -To push your work to your remote repository
-                  git push -u origin Branch_Name
+ - Now you are ready to your work to the remote repository.
+ - When your work is ready and complies with the project conventions, upload your changes to your fork:
+ -    To push your work to your remote repository
+      git push -u origin Branch_Name
                                 
  #  Step 6 : Pull Request 
 - Go to your repository in browser and click on compare and pull requests. 
