@@ -43,7 +43,8 @@ git checkout -b branch_name
  - When your work is ready and complies with the project conventions, upload your changes to your fork:
                                  
  //  To push your work to your remote repository
-      git push -u origin Branch_Name
+   
+                                 git push -u origin Branch_Name
                                 
  #  Step 6 : Pull Request 
 - Go to your repository in browser and click on compare and pull requests. 
