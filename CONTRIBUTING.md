@@ -31,7 +31,26 @@ git rebase upstream/<branch-name
  - Create a new branch. Use its name to identify the issue your addressing.
  - REMEMBER TO USE A DETAILED BRANCH NAME.
 
- # It will create a new branch with name Branch_Name and switch to that branch 
-git checkout -b branch_name    
+git checkout -b branch_name
+ 
+# Step 4 : Commit your Changes
+   - To commit give a descriptive message for the convenience of reviewer by:
+  
+   git commit -m "your commit message" 
+
+ # Step 5 : Work Remotely
+     -   Now you are ready to your work to the remote repository.
+     -   When your work is ready and complies with the project conventions, upload your changes to your fork:
+   
+    //  To push your work to your remote repository
+      git push -u origin Branch_Name
+                                
+   #  Step 6 : Pull Request 
+     - Go to your repository in browser and click on compare and pull requests. Then add a title and description to your pull request that explains your contribution.
+   
                                  
                                  
+                                 
+    😇Learning can be exhaustive, but you can do this. 
+                           We are in this together 
+                              
