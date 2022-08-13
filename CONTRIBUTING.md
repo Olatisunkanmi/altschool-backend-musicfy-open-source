@@ -45,8 +45,9 @@ git checkout -b branch_name
     //  To push your work to your remote repository
       git push -u origin Branch_Name
                                 
-   #  Step 6 : Pull Request 
-   - Go to your repository in browser and click on compare and pull requests. Then add a title and description to your pull request that explains your contribution.
+ #  Step 6 : Pull Request 
+- Go to your repository in browser and click on compare and pull requests. 
+Then add a title and description to your pull request that explains your contribution.
    
                                  
 NOTE: 
