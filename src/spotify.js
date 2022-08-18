@@ -7,7 +7,6 @@ const spotify = new Spotify({
 
 const search = async (req, res) => {
   const { name } = req.query;
-  console.log('a');
   try {
     const response = await spotify.search({ type: 'artist', query: name });
     res.status(200).send(response.artists);
