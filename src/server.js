@@ -21,6 +21,7 @@ app.set('port', PORT);
 
 const searchrouter = require('./route');
 
+//the search route endpoint 
 app.use('/search', searchrouter);
 
 app.get('/', (req, res) => {
