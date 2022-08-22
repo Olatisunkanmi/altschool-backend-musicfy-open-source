@@ -1,4 +1,5 @@
 const express = require('express');
+require('express-async-errors');
 
 const app = express();
 require('dotenv').config();
@@ -17,6 +18,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.set('port', PORT);
+
+const searchrouter = require('./route');
+
+//the search route endpoint 
+app.use('/search', searchrouter);
 
 app.get('/', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'index.html'));
